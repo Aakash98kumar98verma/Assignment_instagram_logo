@@ -1,0 +1,47 @@
+body {
+     background-color: rgb(51, 47, 47);
+}
+
+#container {
+     display: flex;
+     height: 240px;
+     width: 240px;
+     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+     border-radius: 25%;
+     box-sizing: border-box;
+     justify-content: center;
+     align-items: center;
+     margin: 0 auto;
+}
+
+#container1 {
+     display: flex;
+     border: 15px solid #fff;
+     height: 220px;
+     width: 220px;
+     border-radius: 25%;
+     box-sizing: border-box;
+     justify-content: center;
+     align-items: center;
+}
+
+#container2 {
+     display: flex;
+     border: 15px solid #fff;
+     height: 85px;
+     width: 85px;
+     border-radius: 50%;
+     box-sizing: border-box;
+}
+
+#container3 {
+     border: 15px solid #fff;
+     border-radius: 50%;
+     height: 25px;
+     width: 25px;
+     box-sizing: border-box;
+     position: relative;
+     bottom: 55px;
+     left: 75px;
+
+}
